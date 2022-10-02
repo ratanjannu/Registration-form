@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+body{
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  background: linear-gradient(135deg, purple, #00BFFF);
+  padding: 10px;
+  width: 100%;
+  font-family: : Tahoma;
+  font-size: 26px;
+
+}
+h1{
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+h2{
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+h3{
+  font-size: 23px;
+}
+form{
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 2em;
+  background: #F5FFFA;
+  border-radius: 25px;
+}
+input, textarea, select{
+  min-height: 2em;
+  width: 100%;
+}
+input, textarea{
+  background: linear-gradient(135deg, purple, #BA55D3, skyblue);
+  border-radius: 25px;
+  color:white;
+}
+fieldset{
+  padding: 1em;
+  border: none;
+  border-bottom: 3px solid;
+
+}
+fieldset:last-of-type {
+  border-bottom: none;
+}
+button{
+  margin:  auto;
+  font-size: 16px;
+  width: 50%;
+  height: 3em;
+  font-family: Georgia;
+  background: #FF6347;
+  font-weight: bold;
+  color: white;
+  border-radius: 25px;
+}
+label{
+  font-size: 16px;
+  display: block;
+}
+input[type="number"]{
+  margin: 1em auto 1em auto;
+}
+input[type="file"] {
+  padding: 1px 2px;
+}
+::placeholder{
+  color: white;
+}
+textarea{
+  margin: auto;
+  margin-top: 2em;
+}

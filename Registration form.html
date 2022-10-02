@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Registration Form</title>
+</head>
+<body>
+  <head>
+    <meta charset="utf-8" content="">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="G:\Web development\styles.css">
+  </head>
+  <h1>Registration Form</h1>
+  <h2>Please fill out this form with the required information</h2>
+  <form class="" action="index.html" method="post">
+    <fieldset>
+      <label for="" id="information">
+        <h3>Enter Your First Name:</h3>
+        <input type="text" id="fname"name="fname" value=""required>
+        <h3>Enter Your Last Name:</h3>
+        <input type="text" id="lname"name="lname" value=""required>
+        <h3>Enter your Email:</h3>
+        <input type="email" name="email" value=""required>
+        <h3>Create a New Password</h3>
+        <input type="password" name="password" pattern="[a-z0-5]{8,}" value="" required>
+        <h4>Confirm password</h4>
+        <input type="password" name="password" pattern="[a-z0-5]{8,}" value="" required>
+      </label>
+    </fieldset>
+    <fieldset>
+      <label for="Personal-account">Personal account
+        <input type="radio" name="account" id="account" value="" class="inline">
+      </label>
+      <label for="Business account">Business account
+        <input type="radio" name="account" id="account" value="" class="inline">
+      </label>
+      <label for="terms-and-conditions">I accept the <a href=""https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+        <input type="checkbox" name="terms-and-conditions" " class="inline" required>
+      </fieldset>
+      <fieldset>
+        <label for="profile-picture">Upload a profile picture
+          <input type="file" id="profile-picture" name="profile-picture" value="">
+        </label>
+        <label  for="age">Input your age(Years):
+          <input id="age" type="number" min="10" max="120" name="" value="">
+        </label>
+
+        <label for=""> How did you hear about us?:
+          <select class="" name="">
+            <option value="0">(select one)</option>
+            <option value="1">google</option>
+            <option value="2">facebook</option>
+            <option value="3">instagram</option>
+            <option value="4">word of mouth</option>
+            <option value="5">other</option>
+          </label>
+          <label for="">Provide a bio:
+            <textarea id="bio" name="bio" rows="5" cols="50" placeholder="Tell us about you..."></textarea>
+          </label>
+        </fieldset>
+        <button type="submit" name="button">Register</button>
+
+      </select>
+
+      
+    </label>
+  </form>
+
+</body>
+</html>
